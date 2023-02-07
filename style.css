@@ -1,0 +1,877 @@
+
+a{
+  text-decoration: none;
+}
+html{
+    box-sizing: border-box;
+    background: #202020;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+
+body{
+
+
+}
+
+.wrapper{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header{
+font-weight: 400;
+font-size: 40px;
+color: #8DC641;
+}
+.table{
+box-sizing: border-box;
+
+position: absolute;
+width: 1900px;
+height: 850px;
+
+background: #303030;
+border: 1px solid #8DC641;
+border-radius: 20px;}
+
+.tablepic{
+  position: absolute;
+width: 701px;
+height: 657px;
+margin-left: 1179px;
+margin-top: 20px;
+}
+
+h1{
+  position: absolute;
+width: 693px;
+height: 113px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+
+color: #FFFFFF;
+margin-top: 471px;
+margin-left: 125px;
+}
+h3{
+  position: absolute;
+width: 1287px;
+height: 160px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+margin-top: 679px;
+margin-left: 125  px;
+color: #8DC641;
+margin-left: 125px;
+}
+.table1{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1669px;
+height: 534px;
+
+background: #303030;
+border: 1px solid #8DC641;
+border-radius: 50px;
+margin-top: 1098px;
+margin-left: 115px;
+}
+h2{
+  position: absolute;
+width: 1669px;
+height: 73px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+
+color: #FFFFFF;
+margin-top: 36px;
+}
+ul{
+  position: absolute;
+width: 253px;
+height: 126px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+
+.ul1{
+  position: absolute;
+width: 400px;
+height: 150px;
+
+background: rgba(141, 198, 65, 0.6);
+border-radius: 50px;
+margin-top: 140px;
+margin-left: 52px;
+}
+.ul2{
+  position: absolute;
+width: 400px;
+height: 150px;
+
+background: rgba(141, 198, 65, 0.6);
+border-radius: 50px;
+margin-top: 140px;
+margin-left: 635px;
+}
+.ul3{
+  box-sizing: border-box;
+
+position: absolute;
+width: 400px;
+height: 150px;
+
+background: rgba(141, 198, 65, 0.6);
+border-radius: 50px;
+margin-left: 1204px;
+margin-top: 140px;
+}
+.ul4{
+  position: absolute;
+width: 400px;
+height: 150px;
+
+background: rgba(141, 198, 65, 0.6);
+border-radius: 50px;
+margin-top: 338px;
+margin-left: 52px;
+}
+.ul5{
+  position: absolute;
+width: 314px;
+height: 126px;
+
+box-sizing: border-box;
+
+position: absolute;
+width: 400px;
+height: 150px;
+
+background: rgba(141, 198, 65, 0.6);
+border: 1px solid #000000;
+border-radius: 50px;
+margin-top: 338px;
+margin-left: 635px;
+}
+.ul6{
+  position: absolute;
+width: 400px;
+height: 150px;
+
+background: rgba(141, 198, 65, 0.6);
+border-radius: 50px;
+margin-top: 338px;
+margin-left: 1204px;
+}
+.choosedeposit{
+  position: absolute;
+width: 696px;
+height: 110px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+
+color: #FFFFFF;
+margin-top: 1757px;
+margin-left: 167px;
+}
+/*перший тариф депозиту*/
+.first{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1000px;
+height: 311px;
+
+background: #303030;
+border: 1px solid #8DC641;
+border-radius: 24px;
+margin-top: 1971px;
+margin-left: 115px;
+}
+
+.standart{
+  position: absolute;
+width: 180px;
+height: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+margin-top: 33px;
+margin-left: 27px;
+}
+
+.standart_opus1{
+  position: absolute;
+width: 430px;
+height: 117px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #8DC641;
+margin-top: 95px;
+margin-left: 31px;
+}
+.popovnenya1
+{
+  position: absolute;
+  width: 206px;
+  height: 81px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+  margin-top: 174px;
+  margin-left: 537px;
+}
+.znatya1{
+position: absolute;
+width: 151px;
+height: 90px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+color: #8DC641;
+margin-top: 171px;
+margin-left: 788px;
+}
+.stavka1{
+  position: absolute;
+width: 195px;
+height: 140px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #8DC641;
+margin-top: 16px;
+margin-left: 537px;
+
+}
+.termin1{
+  position: absolute;
+width: 169px;
+height: 74px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #8DC641;
+margin-top: 16px;
+margin-left: 787px;
+}
+.opendeposit1{
+  position: absolute;
+width: 277.73px;
+height: 48.87px;
+
+background: rgba(141, 198, 65, 0.6);
+border-radius: 136.5px;
+position: absolute;
+width: 277.73px;
+height: 43.82px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FFFFFF;
+margin-top: 212px;
+margin-left: 27px;
+}
+
+/*другий тариф депозиту*/
+.second{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1000px;
+height: 311px;
+left: 668px;
+top: 351px;
+
+background: #303030;
+border: 1px solid #8DC641;
+border-radius: 24px;
+margin-top: 2171px;
+margin-left: 115px;
+}
+
+.junior{
+  position: absolute;
+  width: 172px;
+  height: 56px;
+  left: 695px;
+  top: 384px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #FFFFFF;
+  margin-top: -360px;
+  margin-left: -670px;
+}
+
+.standart_opus2{
+  position: absolute;
+width: 430px;
+height: 117px;
+left: 699px;
+top: 446px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #8DC641;
+margin-top: -360px;
+margin-left: -680px;
+}
+
+.popovnenya2{
+width: 195px;
+height: 81px;
+left: 1205px;
+top: 525px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #8DC641;
+margin-top: 174px;
+margin-left: 537px;
+}
+.znatya2{
+width: 151px;
+height: 81px;
+left: 1455px;
+top: 522px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #8DC641;
+margin-top: -80px;
+margin-left: 787px;
+}
+.stavka2{
+width: 195px;
+height: 79px;
+left: 1205px;
+top: 367px;
+color: #8DC641;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+margin-left: 537px;
+margin-top: -230px;
+}
+
+.termin2{
+width: 140px;
+height: 74px;
+left: 1455px;
+top: 367px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #8DC641;
+margin-left: 787px;
+margin-top: -80px;
+}
+.opendeposit2
+{
+  width: 277.73px;
+height: 48.87px;
+left: 695.33px;
+top: 563px;
+
+background: rgba(141, 198, 65, 0.6);
+border-radius: 136.5px;
+width: 277.73px;
+height: 43.82px;
+left: 706.27px;
+top: 568.06px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+margin-left: 38px;
+margin-top: 120px;
+color: #FFFFFF;
+
+}
+
+/*третій тариф депозиту*/
+.third{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1000px;
+height: 311px;
+
+background: #303030;
+border: 1px solid #8DC641;
+border-radius: 24px;
+margin-top: 2800px;
+margin-left: 115px;
+}
+.slavaheroes{
+width: 319.5px;
+height: 56.45px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+margin-top: 23px;
+margin-left: 27px;
+}
+.standart_opus3{
+width: 467px;
+height: 117px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #8DC641;
+
+margin-top: 5.5px;
+margin-left: 31px;
+}
+
+.popovnenya3{
+
+  width: 206px;
+height: 81px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #8DC641;
+margin-top: -36px;
+margin-left: 537px;
+}
+.znatya3{
+  width: 154px;
+  height: 40px;
+position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+margin-top: -80px;
+margin-left: 805px;
+
+}
+
+.stavka3{
+  width: 195px;
+  height: 74px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+margin-left: 537px;
+margin-top: -220px;
+
+}
+
+.termin3{
+  width: 140px;
+  height: 74px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+margin-left: 787px;
+margin-top: -70px;
+
+}
+
+.opendeposit3{
+  width: 277.73px;
+height: 48.87px;
+
+background: rgba(141, 198, 65, 0.6);
+border-radius: 136.5px;
+width: 277.73px;
+height: 43.82px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FFFFFF;
+margin-left: 38px;
+margin-top: 110px;
+}
+
+/*четвертий тариф депозиту*/
+.fourth{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1000px;
+height: 311px;
+
+background: #303030;
+border: 1px solid #8DC641;
+border-radius: 24px;
+margin-top: 3200px;
+margin-left: 800px;
+}
+
+.privatvklad{
+  width: 320px;
+height: 44px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+margin-top: 33px;
+margin-left: 27px;
+
+
+color: #FFFFFF;
+
+}
+
+.standart_opus4{
+  width: 430px;
+  height: 117px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+  margin-top: 30px;
+  margin-left: 31px;
+
+}
+
+.popovnenya4
+{
+
+  width: 206px;
+height: 81px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #8DC641;
+margin-left: 537px;
+margin-top: -18px;
+}
+
+.znatya4{
+  width: 139px;
+  height: 79px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+margin-left: 788px;
+margin-top: -80px;
+
+}
+
+.stavka4{
+  width: 195px;
+  height: 74px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+  margin-left: 537px;
+  margin-top: -250px;
+
+}
+
+.termin4{
+  width: 140px;
+  height: 74px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+  margin-left: 787px;
+  margin-top: -80px;
+
+}
+.opendeposit4{
+  idth: 277.73px;
+  height: 43.82px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+  width: 277.73px;
+  height: 48.87px;
+
+  background: rgba(141, 198, 65, 0.6);
+  border-radius: 136.5px;
+  margin-left: 27px;
+  margin-top: 120px;
+
+}
+/*п'ятий тариф депозиту*/
+.fifth{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1000px;
+  height: 311px;
+
+  background: #303030;
+  border: 1px solid #8DC641;
+  border-radius: 24px;
+  margin-top: 3600px;
+  margin-left: 115px;
+}
+.skarb{
+  width: 452px;
+  height: 56px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #FFFFFF;
+margin-left: 27px;
+margin-top: 33px;
+}
+
+
+.standart_opus5{
+  width: 485px;
+  height: 88px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+  margin-top: 35px;
+  margin-left: 31px;
+
+}
+
+.popovnenya5{
+  width: 204px;
+  height: 38px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+  margin-top: -36px;
+  margin-left: 537px;
+}
+
+.znatya5{
+  width: 154px;
+  height: 40px;
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+  margin-top: -37px;
+  margin-left: 788px;
+
+}
+
+.stavka5{
+  width: 195px;
+  height: 61px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+margin-top: -180px;
+margin-left: 537px;
+
+
+}
+
+.termin5{
+  width: 140px;
+  height: 74px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #8DC641;
+  margin-top: -60px;
+  margin-left: 788px;
+
+}
+
+.opendeposit5{
+  width: 277.73px;
+  height: 43.82px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+  width: 277.73px;
+  height: 48.87px;
+
+  background: rgba(141, 198, 65, 0.6);
+  border-radius: 136.5px;
+
+  margin-left: 27px;
+  margin-top: 100px;
+
+
+}
